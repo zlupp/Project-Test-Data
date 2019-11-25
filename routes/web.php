@@ -12,8 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('dashboard/layouts/layout_dashboard');
-});
+    return view('dashboard/dashboard');
+})->name('/');
+Route::get('/maintance', function () {
+    return view('error_page/maintance');
+})->name('maintance');
 
 // Auth::routes();
 Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
