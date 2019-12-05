@@ -921,5 +921,9 @@
 @endsection
 
 @section('cstm_js')
-
+<script src="{{ asset('assets/vendors/chart.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('assets/vendors/chartist.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('assets/vendors/chartist-plugin-tooltip.js') }}" type="text/javascript"></script>
+<script src="{{ asset('assets/vendors/chartist-plugin-fill-donut.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('assets/js/dashboard-modern.js') }}" type="text/javascript"></script>
 @endsection

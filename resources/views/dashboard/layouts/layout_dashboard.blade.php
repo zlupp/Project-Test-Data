@@ -444,18 +444,14 @@
     <script src="{{ asset('assets/js/vendors.min.js') }}" type="text/javascript"></script>
     <!-- BEGIN VENDOR JS-->
     <!-- BEGIN PAGE VENDOR JS-->
-    <script src="{{ asset('assets/vendors/chart.min.js') }}" type="text/javascript"></script>
-    <script src="{{ asset('assets/vendors/chartist.min.js') }}" type="text/javascript"></script>
-    <script src="{{ asset('assets/vendors/chartist-plugin-tooltip.js') }}" type="text/javascript"></script>
-    <script src="{{ asset('assets/vendors/chartist-plugin-fill-donut.min.js') }}" type="text/javascript"></script>
     <!-- END PAGE VENDOR JS-->
     <!-- BEGIN THEME  JS-->
     <script src="{{ asset('assets/js/plugins.js') }}" type="text/javascript"></script>
+    <!-- <script src="{{ asset('assets/js/search.min.js') }}" type="text/javascript"></script> -->
     <script src="{{ asset('assets/js/custom-script.js') }}" type="text/javascript"></script>
-    <script src="{{ asset('assets/js/customizer.js') }}" type="text/javascript"></script>
+    <!-- <script src="{{ asset('assets/js/customizer.js') }}" type="text/javascript"></script> -->
     <!-- END THEME  JS-->
     <!-- BEGIN PAGE LEVEL JS-->
-    <script src="{{ asset('assets/js/dashboard-modern.js') }}" type="text/javascript"></script>
     <script src="{{ asset('assets/js/intro.js') }}" type="text/javascript"></script>
     <!-- END PAGE LEVEL JS-->
     @yield('cstm_js')

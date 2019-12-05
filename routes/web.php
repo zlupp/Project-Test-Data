@@ -17,6 +17,9 @@ Route::get('/', function () {
 Route::get('/maintance', function () {
     return view('error_page/maintance');
 })->name('maintance');
+Route::get('/data_device', function () {
+    return view('dashboard/data_device');
+})->name('data_device');
 
 // Auth::routes();
 Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
